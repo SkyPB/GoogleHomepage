@@ -1,0 +1,93 @@
+<!DOCTYPE html> 
+<html>
+<head>     
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">   
+  <link href="styles.css" rel="stylesheet" type="text/css">
+  <title>My Google</title>
+</head>
+
+<body>
+<!--Nav Bar-->
+<header>
+   <nav class="navbar">
+       
+   <ul class="nav-left"> 
+     <li><a href="https://about.google/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header">About</a></li>
+       <li><a href="https://store.google.com/US/?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-US">Store</a></li>  </ul>
+
+       <ul class="nav-right"> 
+       <li><a href="https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&emr=1&followup=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&ifkv=ARpgrqdlWaV397Nit8wZSe5KtqZJWCYu6I0ezzY09nahteK6Dh17o0WDjsl1A5cuaBkc_IP2lTr37Q&osid=1&passive=1209600&service=mail&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S975061450%3A1727963616403977&ddm=0">Gmail</a></li>
+       <li><a href="https://www.google.com/imghp?hl=en&ogbl">Images</a></li>
+       <li><button onclick="signIn()"class="sign-in-button">Sign In</button></li>
+   
+       </ul>
+
+   </nav>
+
+
+</header>
+
+<!--Google Logo-->
+
+<main class="main-container">
+
+<div class="google-logo"> 
+   <img src="https://storage.googleapis.com/gd-prod/images/a910d418-7123-4bc4-aa3b-ef7e25e74ae6.60c498c559810aa0.webp " alt="Google Logo">
+</div>
+
+
+
+
+   <!--- Google Search Bar -->
+
+
+
+
+       <section class="search-container"> 
+           <div class="search-div">
+               <input type="text" id="searchInput" class="search-bar" placeholder="Search Google or type a URL" required>
+           </div>
+           <div class="button-container">
+               <button onclick="searchGoogle()" class="search-button">Google Search</button>
+               <button onclick="feelingLucky()" class="search-button">I'm Feeling Lucky</button>
+           </div>
+           <a href="https://blog.google/outreach-initiatives/education/world-teachers-day-2024/?utm_source=google&utm_medium=hpp&utm_campaign=2024wtd">To the teachers who inspire us: Thank you!</a>
+       </section>
+   
+
+</main>
+
+
+
+
+
+
+
+
+<!--Footer-->
+
+
+<footer class="foot-container"> 
+   <div class="foot-left"> 
+    <a href="https://ads.google.com/intl/en_us/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Advertising</a>
+    <a href="https://smallbusiness.withgoogle.com/?subid=us-en-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google&utm_medium=ep&utm_campaign=google_hpbfooter&utm_content=google_hpbfooter&gmbsrc=us-en_US-et-gs-z-gmb-s-z-u~sb-g4sb_srvcs-u#!/">Business</a>
+    <a href="https://www.google.com/search/howsearchworks/?fg=1">How Search works</a>
+  
+   </div>
+   <div class="foot-center"> 
+       <a href="https://sustainability.google/?utm_source=googlehpfooter&utm_medium=housepromos&utm_campaign=bottom-footer&utm_content=">Our third decade of climate action: join us</a>
+   </div>
+   <div class="foot-right">
+       <a href="https://policies.google.com/privacy?hl=en&fg=1">Privacy</a>
+       <a href="https://policies.google.com/terms?hl=en&fg=1">Terms</a>
+       <a href="https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwidyP_povWIAxVVQzABHQHBPSQQPAgI#:~:text=Terms-,Settings">Settings</a>
+   </div>
+
+</footer>
+
+<script src="main.js"> 
+
+</script>
+</body>
+</html>
